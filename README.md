@@ -51,12 +51,10 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?php 
-$telegram = new Telegram([
+<?php $telegram = new Telegram([
     'botToken' => 'your bot token..',
 ]);
 $telegram->senMessage([
 	'chat_id' => $chat_id,
 	'text' => 'test',
-]); 
-?>
+]); ?>
