@@ -58,3 +58,4 @@ $telegram->senMessage([
 	'chat_id' => $chat_id,
 	'text' => 'test',
 ]); ?>
+```
