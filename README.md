@@ -15,7 +15,7 @@ php composer.phar require aki/api-bot-telegram "*"
 or add
 
 ```
-"aki/yii2-bot-telegram": "*"
+"aki/api-bot-telegram": "*"
 ```
 
 to the require section of your `composer.json` file.
