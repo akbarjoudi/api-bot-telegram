@@ -1,7 +1,7 @@
 {
     "name": "aki/api-bot-telegram",
     "description": "bot telegram",
-    "type": "yii2-extension",
+    "type": "api bot telegram",
     "keywords": ["api","api-bot-telegram", "php", "api-bot-telegram for php", "php library bot-telegram "],
     "license": "LGPL-3.0+",
     "authors": [
