@@ -1,5 +1,5 @@
 {
-    "name": "aki/yii2-bot-telegram",
+    "name": "aki/api-bot-telegram",
     "description": "bot telegram",
     "type": "yii2-extension",
     "keywords": ["api","api-bot-telegram", "php", "api-bot-telegram for php", "php library bot-telegram "],
