@@ -55,7 +55,7 @@ $telegram = new Telegram([
     'botToken' => 'your bot token..',
 ]);
 $telegram->senMessage([
-        'chat_id' => $chat_id,
+        'chat_id' => Input::getChatID(),
         'text' => 'test',
 ]); 
 ?>
