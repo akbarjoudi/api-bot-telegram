@@ -1,4 +1,4 @@
-for api bot telegram
+﻿for api bot telegram
 ============
 
 Installation
@@ -54,7 +54,7 @@ Once the extension is installed, simply use it in your code by  :
 $telegram = new Telegram([
     'botToken' => 'your bot token..',
 ]);
-$telegram->senMessage([
+$telegram->sendMessage([
         'chat_id' => Input::getChatID(),
         'text' => 'test',
 ]); 
