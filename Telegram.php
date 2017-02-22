@@ -310,6 +310,10 @@ class Telegram extends TelegramBase
         }
     }
 
-    
+    public function getFile($option) {
+        $jsonResponse = $this->curl_call("https://api.telegram.org/bot" . $this->botToken . "/getFile", $option);
+        return json_decode($jsonResponse);
+    }
+
 
 }
