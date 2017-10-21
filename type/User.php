@@ -19,7 +19,7 @@ class User extends Type{
         return $this->_id;
     }
     
-    public function getFrist_name() {
+    public function getFirst_name() {
         return $this->_first_name;
     }
     
